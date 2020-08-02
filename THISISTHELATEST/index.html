@@ -1,0 +1,59 @@
+<html>
+     <head>
+         <div class="heading">
+                  
+         </div>
+        
+         <style>
+             .heading{
+                 margin-left: 250px;
+                 font-size: 30;
+                
+                 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+             }
+            body {
+              background-image: url('Backgrounds/game_background_2.png');
+            }
+            </style>
+             <style>
+                .column1 {
+                  
+                  align-items: center;
+                  margin-left: 300;
+                }
+                </style>
+                 <style>
+                    .column3 {
+                      
+                      align-items: center;
+                      margin-left: 300;
+                    }
+                    </style>
+
+      </head>
+    <body>
+        <div class="column1"> <img src="Backgrounds/game_background_1.png" width=200 height=200>
+            <button onclick="myFunction()"  style="color:blue;text-align:center;font-size: 16px;border: coral;background-color: darksalmon;">MOUNTAIN FIGHTERS</button>
+            </div>
+            <div class="column2"> <img src="Backgrounds/TheGhouls.png" width=200 height=200>
+            <button onclick="myFunction1()"  style="color:blue;text-align:center;font-size: 16px;border: coral;background-color: darksalmon;">NIGHT WARRIORS</button>
+            </div>
+            <div class="column3" background-color="pink"> <img src="Backgrounds/game_background_4.png" width=200 height=200>
+                <button onclick="myFunction2()" style="color:blue;text-align:center;font-size: 16px;border: coral;background-color: darksalmon;">RIVER DIVERS</button>
+                </div>
+            <script>
+                function myFunction() 
+                {
+                 location.replace("first.html")
+                 }
+                 function myFunction1() 
+                {
+                 location.replace("third.html")
+                 }
+                 function myFunction2() 
+                {
+                 location.replace("second.html")
+                 }
+            </script>
+    </body>
+</html>
